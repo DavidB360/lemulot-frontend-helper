@@ -1,23 +1,15 @@
 .main {
 	display: flex;
 	justify-content: center;
-	min-height: 87vh;
+	min-height: 85vh;
 	background-color: rgb(231, 231, 231);
 }
 .container {
-	display: flex;
-	flex-direction: column;
 	background-color: white;
 	position: absolute;
 	margin-top: 0;
 	width: 90%;
 	height: 80%;
-}
-.title {
-	font-family: "Noto Sans", sans-serif;
-	font-weight: 500;
-	font-size: 25px;
-	margin: 10px;
 }
 .inputSearch {
 	width: 30%;

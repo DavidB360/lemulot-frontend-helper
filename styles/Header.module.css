@@ -1,0 +1,55 @@
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(231, 231, 231);
+}
+.base {
+	background-image: url(../public/lemulot.png);
+	background-size: 25%;
+	background-repeat: no-repeat;
+	background-position: 80% 105%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+.profil {
+	margin-left: 5%;
+}
+.logout {
+	margin-right: 5%;
+}
+.title {
+	font-family: "Noto Sans", sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+}
+.linkContainer {
+	flex-direction: row;
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	text-transform: uppercase;
+	font-size: 11px;
+	letter-spacing: 1px;
+}
+.link {
+	font-family: "Noto Sans", sans-serif;
+	border-style: none;
+	width: 25%;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	cursor: pointer;
+	text-align: center;
+	border-top-left-radius: 15px 15px;
+	border-top-right-radius: 15px 15px;
+	box-shadow: 10px 5px 10px grey;
+	background-color: #5db194;
+}
+.link:hover {
+	opacity: 70%;
+}
