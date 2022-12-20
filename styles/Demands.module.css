@@ -5,15 +5,9 @@
 	background-color: rgb(231, 231, 231);
 }
 .container {
-	background-color: white;
+	background-color: #c1dbbd;
 	position: absolute;
 	margin-top: 0;
 	width: 90%;
 	height: 80%;
-}
-.inputSearch {
-	width: 30%;
-	height: 30px;
-	border-radius: 10px;
-	margin-left: 5%;
 }

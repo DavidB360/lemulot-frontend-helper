@@ -29,7 +29,7 @@
 }
 .linkContainer {
 	flex-direction: row;
-	width: 70%;
+	width: 80%;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -48,8 +48,17 @@
 	border-top-left-radius: 15px 15px;
 	border-top-right-radius: 15px 15px;
 	box-shadow: 10px 5px 10px grey;
-	background-color: #5db194;
+	/* background-color: #5db194; */
 }
 .link:hover {
 	opacity: 70%;
+}
+.link1 {
+	background-color: #c1dbbd;
+}
+.link2 {
+	background-color: #dcd7d4;
+}
+.link3 {
+	background-color: #bfbddb;
 }

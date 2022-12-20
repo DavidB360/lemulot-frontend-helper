@@ -1,6 +1,5 @@
 import "../styles/globals.css"
 import Head from "next/head"
-import Header from "../components/Header"
 
 // reducers
 // import { Provider } from 'react-redux';
@@ -27,7 +26,6 @@ function App({ Component, pageProps }) {
 			<Head>
 				<title>Le mulot</title>
 			</Head>
-			<Header />
 			<Component {...pageProps} />
 		</div>
 	)

@@ -1,7 +1,11 @@
-import Home from '../components/Home';
+import Header from "../components/Header"
 
-function Index() {
-  return <Home />;
+function Main() {
+	return (
+		<div>
+			<Header />
+		</div>
+	)
 }
 
-export default Index;
+export default Main
